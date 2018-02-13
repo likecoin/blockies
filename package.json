@@ -1,5 +1,5 @@
 {
-  "name": "ethereum-blockies",
+  "name": "@likecoin/ethereum-blockies",
   "version": "0.1.1",
   "description": "A tiny library for generating blocky identicons.",
   "main": "./dist/blockies.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexvandesande/blockies.git"
+    "url": "git+https://github.com/likecoin/blockies.git"
   },
   "author": "Erin Dachtler, Alex Van de Sande",
   "license": "MIT",
