@@ -1,6 +1,9 @@
 Blockies
 ========
+Fork of https://github.com/MyEtherWallet/blockies transpiled to es2015
 
+Original README
+---
 A tiny library for generating blocky identicons.
 
 ![Sample blockies image](sample.png "Blockies")
