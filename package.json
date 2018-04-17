@@ -5,8 +5,7 @@
   "main": "./dist/blockies.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":
-      "rollup ./src/blockies.js --output.format umd --name 'blockies' --output.file ./dist/blockies.js"
+    "build": "rollup --config rollup.config.js ./src/blockies.js --output.format umd --name 'blockies' --output.file ./dist/blockies.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/alexvandesande/blockies/issues"
   },
-  "homepage": "https://github.com/alexvandesande/blockies#readme"
+  "homepage": "https://github.com/alexvandesande/blockies#readme",
+  "dependencies": {
+    "rollup": "^0.58.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-buble": "^0.19.2"
+  }
 }
